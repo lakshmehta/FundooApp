@@ -1,0 +1,73 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@mixin responsive {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-container {
+  height: auto;
+  width: 35%;
+  border:0.5px solid rgb(202, 202, 202);
+  border-radius: 3px;
+  margin: 2% auto;
+  padding: 2%;
+  margin-top: 7%;
+}
+h1{
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.fundoo{
+  justify-content: center;
+}
+.signin{
+  justify-content: center;
+  margin-top: -20px;
+  font-size: 24px;
+}
+.fundooacc{
+  margin-top: -15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+label{
+  color: royalblue;
+}
+::ng-deep clr-input-container .clr-control-container {
+  display: block;
+  width: 100%;
+}
+::ng-deep clr-input-container input {
+  width: 100%;
+}
+.input{
+  margin-top: 12px;
+  padding: 25px 0;
+}
+.inputpassword{
+  margin-top: 12px;
+}
+.forgotbtn{
+  margin-left: 10px;
+  margin-top: -12px;
+}
+.msg{
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.uclass{
+  font-size: 14px;
+}
+.button{
+  padding: 22px;
+  margin-top: 50px;
+}

@@ -1,0 +1,71 @@
+<form class="container">
+  <div fxLayout="row" fxLayoutAlign="space-evenly center">
+    <div fxLayout="column" fxLayoutAlign="space-evenly start">
+      <div fxLayout="column" fxLayoutAlign="start">
+        <div fxLayout="row" fxLayout.xs="row" class="fundoo">
+          <h1 style="color: #4285F4;">F</h1>
+          <h1 style="color: #EA4335;">u</h1>
+          <h1 style="color: #FBBC04;">n</h1>
+          <h1 style="color: #4285F4;">d</h1>
+          <h1 style="color: #34A853;">o</h1>
+          <h1 style="color: #EA4335;">o</h1>
+        </div>
+        <h2>Create your Fundoo Account</h2>
+        <div fxLayout="row" fxLayoutAlign="space-between start" fxLayout.xs="column" style="margin-top: 5%;"
+          fxLayoutGap="20px">
+          <clr-input-container class="name">
+            <label>First Name</label>
+            <input clrInput placeholder="First Name" name="input"/>
+            <clr-control-error *clrIfError="'required'">First name is required</clr-control-error>
+          </clr-input-container>
+          <clr-input-container class="name">
+            <label>Last Name</label>
+            <input clrInput placeholder="Last Name" name="input"/>
+            <clr-control-helper class="helper">Last name is required</clr-control-helper>
+          </clr-input-container>
+        </div>
+        <div class="username">
+          <clr-input-container>
+            <label>Username</label>
+            <input clrInput placeholder="User Name" name="input" />
+            <clr-control-helper class="helper">You can use letters, numbers and periods</clr-control-helper>
+          </clr-input-container>
+          <clr-input-container></clr-input-container>
+        </div>
+        <div>
+          <button class="btn btn-link">Use my current email instead</button>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-between start" fxLayout.xs="column" style="margin-top: 5%;"
+          fxLayoutGap="20px">
+          <clr-input-container class="name">
+            <label>Password</label>
+            <input clrInput placeholder="Password" name="input" />
+          </clr-input-container>
+          <clr-input-container class="name">
+            <label>Confirm Password</label>
+            <input clrInput placeholder="confirm Password" name="input" />
+          </clr-input-container>
+        </div>
+        <p class="passwordhelper">Use 8 more characters with a mix of letters, numbers & symbols</p>
+        <section class="bottom">
+          <clr-checkbox-wrapper>
+            <input type="checkbox" clrCheckbox name="options" required value="option1" />
+            <label style="margin-left: 10px;">Show Password</label>
+          </clr-checkbox-wrapper>
+        </section>
+        <div class="button" fxLayout="row" fxLayoutAlign="space-between start">
+          <a routerLink="/Signin">Signin instead</a>
+          <button class="btn btn-primary">Next</button>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <div class="card-img">
+        <img src="../../../assets/icons/account.svg" class="gimg" />
+      </div>
+      <div class="card-block">
+        <p class="card-text">One account. All of Fundoo working for you.</p>
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: auto;
+  width: 55%;
+  border:0.5px solid rgb(202, 202, 202);
+  border-radius: 3px;
+  margin: 2% auto;
+  padding: 2%;
+  margin-top: 7%;
+}
+
+h1{
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+h2{
+  font-weight: bold;
+  margin-top: -15px;
+  font-size: 24px;
+}
+.invalid{
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+label{
+  color:royalblue;
+}
+.name{
+  height: 1%;
+}
+.helper{
+  margin-top: 5px;
+}
+.username{
+  margin-top: 5px;
+}
+.uncontroler{
+  display: block;
+  width: 100%;
+}
+::ng-deep clr-input-container .clr-control-container {
+  display: block;
+  width: 100%;
+}
+::ng-deep clr-input-container input {
+  width: 100%;
+}
+.btn{
+  align-items: flex-start;
+  margin-left: 0px;
+}
+.passwordhelper{
+  font-size: 12px;
+  margin-top: -3px;
+  width: 80%;
+}
+.button{
+  margin-left: 0%;
+  margin-top: 30px;
+
+}
+.image{
+  margin-top: 6%;
+  margin-left: 5%;
+  float: right;
+}
+.gimg{
+  left: 16px;
+  width: 250px;
+  height: 250px;
+}
+.card-text{
+  text-align: center;
+}
+@media screen and (max-width:360px){
+  .fundoo{
+      margin-top: 2%;
+      margin-left: 55%;
+  }
+
+  .header{
+      width: 100%;
+      margin-left: 53%;
+  }
+  .container {
+    height: auto;
+    width: 100%;
+    border:0.5px solid rgb(202, 202, 202);
+    border-radius: 3px;
+    margin: 2% auto;
+    padding: 2%;
+    margin-top: 7%;
+  }
+  h2{
+    width: 30px;
+  }
+
+}
